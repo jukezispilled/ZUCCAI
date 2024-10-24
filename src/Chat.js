@@ -37,8 +37,8 @@ function Chat() {
     const specificResponses = {
         "twitter": { text: "Follow me human", link: "https://x.com/zucctoken" },
         "x": { text: "Follow me human", link: "https://x.com/zucctoken" },
-        "telegram": { text: "Join up chad", link: "https://t.me/zucctoken" },
-        "tg": { text: "Join up chad", link: "https://t.me/zucctoken" },
+        "telegram": { text: "Join up chad", link: "https://t.me/zuccportal" },
+        "tg": { text: "Join up chad", link: "https://t.me/zuccportal" },
         "ca": { text: "soon...", link: null }, // No link
         "pump": { text: "we're gonna pump $ZUCC lil homie. billions will zucc", link: null },
         "token": { text: "we're gonna pump $ZUCC lil homie. billions will zucc", link: null },
