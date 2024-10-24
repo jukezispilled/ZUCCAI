@@ -39,7 +39,7 @@ function Chat() {
         "x": { text: "Follow me human", link: "https://x.com/zucctoken" },
         "telegram": { text: "Join up chad", link: "https://t.me/zucctoken" },
         "tg": { text: "Join up chad", link: "https://t.me/zucctoken" },
-        "ca": { text: "updating...", link: null }, // No link
+        "ca": { text: "68Q9zURBsy8jPJqDEoyWH4UCgefX8EwSdvQ6Tcospump", link: null }, // No link
         "pump": { text: "we're gonna pump $ZUCC lil homie. billions will zucc", link: null },
         "token": { text: "we're gonna pump $ZUCC lil homie. billions will zucc", link: null },
         "train": { text: "zucc trained himself. why are you so worried?", link: null },
