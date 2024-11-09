@@ -33,6 +33,8 @@ function Home() {
                 />
             </div>
 
+            <div className='absolute inset-0 w-full h-full bg-black opacity-20'></div>
+
             {/* Content Layer */}
             <div className="relative h-screen w-screen z-10">
                 {/* Powered by Meta */}
