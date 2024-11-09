@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Chat from './Chat';
-import Tracker from './Tracker'; // Assuming Tracker.js exports the Tracker component
 import Activity from './Activity'; // Import the Activity component
 
 function Home() {
@@ -21,7 +20,7 @@ function Home() {
     };
 
     return (
-        <div className='relative font-mono'>
+        <div className='relative'>
             {/* Fixed Video Background */}
             <div className="fixed top-0 left-0 w-screen h-screen z-0">
                 <video
@@ -43,12 +42,12 @@ function Home() {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 2 }}
                 >
-                    <div className='font-mono text-xl text-white'>powered by</div>
+                    <div className='text-xl text-white'>powered by</div>
                     <img src="meta.png" className='size-16 -mt-5' alt="Meta logo" />
                 </motion.div>
 
                 {/* Main Content Area */}
-                <div className="h-screen w-screen flex justify-center items-center font-mono p-4">
+                <div className="h-screen w-screen flex justify-center items-center p-4">
                     <Chat />
                 </div>
 
@@ -75,13 +74,7 @@ function Home() {
                 {/* Bottom-right action buttons */}
                 <div className="md:hidden absolute left-1/2 transform -translate-x-1/2 bottom-5 md:right-5 space-x-3 flex justify-center">
                     <button
-                        className="bg-blue-500 text-white p-3 rounded hover:bg-blue-600 transition ease-in-out duration-150"
-                        onClick={() => openModal(<Tracker />)} // Open modal with Tracker
-                    >
-                        Asian Finder
-                    </button>
-                    <button
-                        className="bg-blue-500 text-white p-3 rounded hover:bg-blue-600 transition ease-in-out duration-150"
+                        className="bg-blue-500 text-white p-3 hover:bg-blue-600 transition ease-in-out duration-150"
                         onClick={() => openModal(<Activity />)} // Open modal with Activity
                     >
                         Activity Monitor
@@ -90,13 +83,7 @@ function Home() {
 
                 <div className="hidden md:flex justify-center absolute bottom-5 md:right-5 space-x-3">
                     <button
-                        className="bg-blue-500 text-white p-3 rounded hover:bg-blue-600 transition ease-in-out duration-150"
-                        onClick={() => openModal(<Tracker />)} // Open modal with Tracker
-                    >
-                        Asian Finder
-                    </button>
-                    <button
-                        className="bg-blue-500 text-white p-3 rounded hover:bg-blue-600 transition ease-in-out duration-150"
+                        className="bg-blue-500 text-white p-3 hover:bg-blue-600 transition ease-in-out duration-150"
                         onClick={() => openModal(<Activity />)} // Open modal with Activity
                     >
                         Activity Monitor
