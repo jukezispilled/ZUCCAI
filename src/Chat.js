@@ -59,10 +59,10 @@ function Chat() {
 
     // Specific responses based on prompts
     const specificResponses = {
-        "twitter": { text: "follow me human", link: "https://x.com/" },
-        "x": { text: "follow me human", link: "https://x.com/" },
-        "telegram": { text: "join up chad", link: "https://t.me/" },
-        "tg": { text: "join up chad", link: "https://t.me/" },
+        "twitter": { text: "follow me human", link: "https://x.com/zuccaicoin" },
+        "x": { text: "follow me human", link: "https://x.com/zuccaicoin" },
+        "telegram": { text: "join up chad", link: "https://t.me/zuccaiportal" },
+        "tg": { text: "join up chad", link: "https://t.me/zuccaiportal" },
         "ca": { text: "uploading...", link: null }, // No link
         "pump": { text: "we're gonna pump $ZUCC lil homie. billions will zucc", link: null },
         "token": { text: "we're gonna pump $ZUCC lil homie. billions will zucc", link: null },
