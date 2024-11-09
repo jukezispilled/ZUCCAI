@@ -188,7 +188,7 @@ function Chat() {
                                                 className="w-10 h-10 rounded-full mr-2"
                                             />
                                         )}
-                                        <div className={`flex items-center whitespace-normal ${item.sender === 'You' ? 'bg-blue-500 text-white p-2' : 'bg-gray-200 p-2'}`}>
+                                        <div className={`flex items-center whitespace-normal ${item.sender === 'You' ? 'bg-black text-white p-2' : 'bg-gray-200 p-2'}`}>
                                             <span>
                                                 {item.text}
                                                 {/* Render clickable link if available */}
