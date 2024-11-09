@@ -24,7 +24,7 @@ const Popup = ({ onClose }) => {
       className="max-w-[90%] max-h-[90%] sm:w-64 sm:h-40 md:w-72 md:h-48 font-custom"
     >
       <WindowContent className="flex flex-col justify-between h-full relative">
-        <img src="zucc.png" alt="Spam" className="max-w-full max-h-[80%] object-contain" />
+        <img src="zucc2.png" alt="Spam" className="max-w-full max-h-[85%] object-contain absolute bottom-0" />
         <Button onClick={onClose} className="self-end">
           Close
         </Button>

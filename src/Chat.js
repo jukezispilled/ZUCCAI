@@ -177,7 +177,7 @@ function Chat() {
                 <div className='w-screen flex justify-center'>
                     <Window style={{padding: '4px'}} className='w-[90%] md:w-[65%] lg:w-[55%] flex flex-col z-20'>
                         <div className="p-4">
-                            <h2 className="text-2xl font-bold mb-2 text-blue-500">ZUCCAI</h2>
+                            <h2 className="text-2xl font-bold mb-2">ZUCCAI</h2>
                             <div className="border border-gray-300 p-2 h-72 overflow-auto flex flex-col">
                                 {chat.map((item, index) => (
                                     <div key={index} className={`flex items-start mb-2 ${item.sender === 'Bot' ? 'justify-start' : 'justify-end'}`}>
@@ -227,7 +227,7 @@ function Chat() {
                                 />
                                 <button 
                                     onClick={handleSend}
-                                    className="bg-blue-500 text-white px-4 py-2 ml-2 hover:bg-blue-600 transition-colors duration-200">
+                                    className="bg-black text-white px-4 py-2 ml-2 transition-colors duration-200">
                                     send
                                 </button>
                             </div>
